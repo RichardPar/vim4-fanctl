@@ -6,8 +6,8 @@ import sys
 import time
 
 PROBE_INTERVAL = 5
-TEMP_FAN_OFF = 40
-TEMP_FAN_MAX = 60
+TEMP_FAN_OFF = 60
+TEMP_FAN_MAX = 75
 
 def SetFanSpeed(percentage: int):
     if (percentage < 0 or percentage > 100):
